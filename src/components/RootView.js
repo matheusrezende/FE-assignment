@@ -10,7 +10,7 @@ class RootView extends Component {
           <Link to='/' className='navbar-brand'>Addresses</Link>
           <ul className='navbar-nav mr-auto mt-2 mt-lg-0'>
             <li className={'nav-item'}>
-              <NavLink to='/' isActive={() => this.props.history.location.pathname === '/'} className='nav-link'>Addresses</NavLink>
+              <NavLink to='/' isActive={() => this.props.history.location.pathname === '/'} className='nav-link'>Home</NavLink>
             </li>
             <li className={'nav-item'}>
               <NavLink to='/address' className='nav-link'>New Address</NavLink>

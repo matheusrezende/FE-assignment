@@ -60,7 +60,6 @@ class AddressList extends Component {
   }
 }
 
-
 const mapStateToProps = (state) => ({
   addresses: _.map(state.address.items, (val, uid) => { return {...val, uid} }) // using lodash to parse the object structure returned from the database to an array structure
 })
