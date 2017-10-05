@@ -14,7 +14,6 @@ class AddressUpdate extends Component {
 
   render () {
     const { updateAddress, input, deleteAddress, match } = this.props
-    console.log(this.props)
     return (
       <div className='container'>
         <AddressForm {...this.props}> {/* A copy of the props in this component is passed to the AddressForm */}
